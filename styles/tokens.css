@@ -1,0 +1,24 @@
+:root {
+  /* colors */
+  --white: #ffffff;
+  --bg-color: #ecf2f8;
+  --grey-900: #48556a;
+  --grey-500: #6e8098;
+  --grey-400: #9daec2;
+  --grey-200: #ecf2f8;
+
+  /* Typography Presets */
+  --font-family-base: "Manrope", system-ui, sans-serif;
+  --text-preset-1-font-size: 1.25rem;
+  --text-preset-1-font-weight: 700;
+  --text-preset-1-line-height: 1.3;
+  --text-preset-1-letter-spacing: 0.25px;
+  --text-preset-2-font-size: 0.8125rem;
+  --text-preset-2-font-weight: 500;
+  --text-preset-2-line-height: 1.4;
+  --text-preset-2-letter-spacing: 0.0012em;
+  --text-preset-3-font-size: 0.8125rem;
+  --text-preset-3-font-weight: 400;
+  --text-preset-3-line-height: 1.4;
+  --text-preset-3-letter-spacing: 0.25em;
+}
