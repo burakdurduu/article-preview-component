@@ -1,0 +1,101 @@
+main {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+}
+
+.card {
+  background-color: var(--white);
+  border-radius: 0.75rem;
+  box-shadow: 2px 8px 20px rgba(0, 0, 0, 0.1);
+  max-width: 30rem;
+}
+
+.card > img {
+  border-radius: 0.75rem 0.75rem 0 0;
+}
+
+.card-content {
+  padding: 1rem 2rem;
+}
+
+.card-content h2 {
+  color: var(--grey-900);
+  margin-top: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.card-content > p {
+  color: var(--grey-500);
+  margin-bottom: 3rem;
+}
+
+.card-footer {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.user-info {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.user-info .avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.user-info-details .user-name {
+  color: var(--grey-900);
+}
+
+.user-info-details .post-date {
+  color: var(--grey-400);
+}
+
+.btn-share {
+  width: 2rem;
+  height: 2rem;
+  place-items: center;
+  border: unset;
+  border-radius: 50%;
+  background-color: var(--grey-200);
+  cursor: pointer;
+}
+
+.share-bar {
+  background-color: var(--grey-900);
+  border-radius: 0 0 0.75rem 0.75rem;
+}
+
+.share-menu {
+  display: flex;
+  align-items: center;
+  padding: 22px 30px;
+  gap: 1rem;
+}
+
+.share-menu .share {
+  color: var(--grey-400);
+  text-transform: uppercase;
+  margin-right: 0.5rem;
+}
+
+.share-menu .btn-share {
+  margin-left: auto;
+}
+
+.share-menu .btn-share {
+  background-color: var(--grey-500);
+}
+
+.share-menu .btn-share img {
+  filter: brightness(3);
+}
