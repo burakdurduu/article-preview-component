@@ -4,7 +4,7 @@ main {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 2rem;
+  padding: 1.5rem;
 }
 
 .card {
@@ -12,6 +12,7 @@ main {
   border-radius: 0.75rem;
   box-shadow: 2px 8px 20px rgba(0, 0, 0, 0.1);
   max-width: 30rem;
+  position: relative;
 }
 
 .card > img {
@@ -19,7 +20,7 @@ main {
 }
 
 .card-content {
-  padding: 1rem 2rem;
+  padding: 1rem 1.875rem;
 }
 
 .card-content h2 {
@@ -73,6 +74,9 @@ main {
 .share-bar {
   background-color: var(--grey-900);
   border-radius: 0 0 0.75rem 0.75rem;
+  position: absolute;
+  width: 100%;
+  bottom: 0;
 }
 
 .share-menu {
@@ -98,4 +102,8 @@ main {
 
 .share-menu .btn-share img {
   filter: brightness(3);
+}
+
+.hidden {
+  display: none;
 }
