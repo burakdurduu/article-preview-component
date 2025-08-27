@@ -11,8 +11,8 @@ main {
   background-color: var(--white);
   border-radius: 0.75rem;
   box-shadow: 2px 8px 20px rgba(0, 0, 0, 0.1);
-  max-width: 30rem;
   position: relative;
+  max-width: 21rem;
 }
 
 .card > img {
@@ -61,7 +61,7 @@ main {
   color: var(--grey-400);
 }
 
-.btn-share {
+.btn {
   width: 2rem;
   height: 2rem;
   place-items: center;
@@ -92,18 +92,44 @@ main {
   margin-right: 0.5rem;
 }
 
-.share-menu .btn-share {
+.share-menu .btn-share-close {
+  background-color: var(--grey-500);
   margin-left: auto;
 }
 
-.share-menu .btn-share {
-  background-color: var(--grey-500);
-}
-
-.share-menu .btn-share img {
+.share-menu .btn-share-close img {
   filter: brightness(3);
 }
 
 .hidden {
   display: none;
+}
+
+@media (min-width: 43.75rem) {
+  .card {
+    display: flex;
+    min-width: 38rem;
+    gap: 2rem;
+  }
+
+  .card > img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    overflow: hidden;
+    border-radius: 0.75rem 0 0 0.75rem;
+  }
+
+  .card-content {
+    padding-block: 2.5625rem;
+    padding-inline: 0 2.25rem;
+  }
+
+  .card-content h2 {
+    margin-top: 0;
+  }
+
+  .card-content > p {
+    margin-bottom: 1.5rem;
+  }
 }
